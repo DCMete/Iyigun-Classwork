@@ -1,3 +1,7 @@
+### SRC - I really like this game, well done.
+### The only problem is that there is no way to
+### quit the game once it starts. 
+
 from random import randint
 
 #create a list of play options
