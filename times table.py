@@ -5,7 +5,7 @@ def multiples(table,start,end,name):
 	for i in range(start,end+1,table):
                 ### SRC - I don't think you want to return here, but print
 		### return(start,"x",end,"=",i)
-		print(start,"x",end,"=",i)
+		return (start,"x",end,"=",i)
 
 ### SRC you seem to have missed the input statements here?	
 pupilName = input("What is your name?")
@@ -17,4 +17,4 @@ table = int(input("And what table would you like?"))
 ### SRC - unless your subroutine muliples returns a string, you don't want to print it!!
 
 ### print(multiples(table,startNum,endNum,pupilName))
-multiples(table,startNum,endNum,pupilName)
+print(multiples(table,startNum,endNum,pupilName))
